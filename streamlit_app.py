@@ -7,7 +7,6 @@ import re # 정규표현식 라이브러리 import
 # --- 1. 앱 기본 설정 ---
 st.set_page_config(page_title="알고리즘 순서도 메이커", layout="wide")
 st.title("🎨 알고리즘 순서도 메이커 (오류 수정)")
-st.info("이제 Graphviz 없이, 문법 오류 없이 순서도를 만들 수 있습니다!")
 
 # --- 2. 세션 상태(Session State) 초기화 ---
 # [수정됨] Mermaid에서 안전하게 사용 가능한 영문/숫자 ID로 변경
